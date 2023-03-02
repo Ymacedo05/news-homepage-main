@@ -1,0 +1,170 @@
+
+main{
+    padding-bottom: 20px;
+}
+main .outdoor{
+    background: url("assets/images/img2.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: darkblue;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+main .div_section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    min-height: 460px;
+    flex-wrap: wrap;
+}
+
+main .div_section .section01{
+    width: 60%;
+    min-width: 350px;
+    height: 460px;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    box-shadow: 0px 0px 5px silver;
+}
+
+main .div_section .section01 .encapsulador{
+    display: flex;
+    height: 50%;
+}
+main .div_section .section01 .encapsulador div{
+    margin: 3px;
+    width: 50%;
+}
+
+main .div_section .section01 .encapsulador p{
+    text-align: left;
+}
+main .div_section .section01 .encapsulador button {
+    padding: 5px;
+    height: 40px;
+    background-color: black;
+    color: rgb(199, 76, 76);
+    margin-top: 10px;
+    width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main .div_section .section01 .img {
+    background: brown;
+    width: 100%;
+    height: 50%;
+}
+main .div_section .section01 .img img{
+    height: 100%;
+    width: 100%;
+}
+
+main .div_section .section01 .encapsulador .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .div_section .section01 .encapsulador .left h2 {
+    font-size: 2.6em;
+    text-align: center;
+}
+
+main .div_section .section01 .encapsulador .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/* =================== Section 02 ===========*/
+main .div_section .section02{
+    width: 35%;
+    min-width: 220px;
+    height: 460px;
+    background-color: white;
+}
+
+main .div_section .section02 .componente_img{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 5px silver;
+    border-radius: 7px;
+}
+
+main .div_section  .section02 .componente_img div.img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .div_section .section02 .componente_img div.img img{
+    width: 90%;
+    height: 90%;
+}
+main .div_section .section02 .componente_img p{
+    display: block;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* =================== Section 03 ===========*/
+main .section03{
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .section03 div{
+    min-width: 250px;
+    height: 150px;
+    margin: 10px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 5px silver;
+}
+
+main .section03 iframe{
+    width: 100%;
+    height: 100%;
+}
+/*=================== Mobile ====================*/
+
+
+@media(max-width:850px) {
+    main .div_section {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    main .div_section section {
+        margin-bottom: 10px;
+        width: 100% !important;
+    }
+
+    main .section03{
+        justify-content: center;
+
+    }
+
+    main .section03 div{
+        width: 350px;
+        height: 150px;
+        margin: 20px 0px;
+    }
+}
+
+    

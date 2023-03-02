@@ -1,0 +1,36 @@
+#subir{
+    display: block;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 3em;
+    line-height: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    background-color: transparent;
+    border: 6px solid rgb(149, 49, 49);
+    z-index: 999;
+}
+
+#subir a {
+    color: rgb(149, 49, 49);
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3{
+    color: gray;
+}
